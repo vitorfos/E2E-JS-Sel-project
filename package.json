@@ -1,0 +1,21 @@
+{
+  "name": "selenium-e2e-automation",
+  "version": "1.0.0",
+  "description": "End-to-end automation testing using Selenium WebDriver",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/tests/**/*.test.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.0.0",
+    "babel-cli": "^6.0.0",
+    "babel-preset-env": "^1.0.0",
+    "eslint": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
